@@ -1,7 +1,11 @@
 .resume-body {
     box-shadow: none;
-    padding: 0;
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
+.resume-body h1 {
+    font-size: 3em;
 }
 .resume-body .date {
     float:none;
@@ -18,4 +22,5 @@
     float: none;
     text-align: center;
     margin: 10px;
+    line-height: 1.5em;
 }
