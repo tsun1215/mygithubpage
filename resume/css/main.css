@@ -1,15 +1,7 @@
 .resume-body {
     overflow: hidden;
     text-align: left;
-    box-shadow: 0 0 6px #ccc;
-    font-family: Georgia, serif, 'Trebuchet MS';
-    line-height: 14px;
-    font-size: 14px;
     letter-spacing: 0px;
-    padding: 35px;
-    margin: 0 50px 10px 50px;
-    background: #fff;
-    line-height: 1.5em;
 }
 .resume-body h1, 
 .resume-body h2, 
@@ -34,6 +26,7 @@
     margin: 0 0 10px 0;
 }
 .resume-body ul {
+    clear: both;
     list-style-type: circle;
     /*line-height: 1.8em;*/
 }
@@ -49,6 +42,7 @@
     margin:0;
 }
 .resume-body .item ul{
+    clear: both;
     margin:0;
     margin-bottom: 5px;
 }
