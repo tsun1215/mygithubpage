@@ -1,0 +1,21 @@
+.resume-body {
+    box-shadow: none;
+    padding: 0;
+    padding: 5px;
+}
+.resume-body .date {
+    float:none;
+    display:block;
+}
+.resume-body .date::before {
+    content: "(";
+}
+.resume-body .date::after {
+    content: ")";
+}
+.resume-body .basic-info .schoolinfo,
+.resume-body .basic-info .perminfo {
+    float: none;
+    text-align: center;
+    margin: 10px;
+}

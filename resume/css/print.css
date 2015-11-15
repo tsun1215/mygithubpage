@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif, 'Trebuchet MS';
+    line-height: 14px;
+    font-size: 14px;
+}
+.resume-body{
+    width: 910px;
+    background: #fff;
+    box-shadow: none;
+    line-height: 14px;
+    font-size: 14px;
+    margin: 0;
+    padding: 35px;
+    overflow: hidden;
+}
+.resume-body ul{
+    line-height: 1.25em;
+}
+.resume-body .website{
+    display: inline;
+}
+.resume-body a{
+    color:black;
+    text-decoration: none;
+}
+.resume-body .section {
+    margin-bottom: 10px;
+}
+.resume-body .section .publication-link a {
+    display: none;
+}
+.resume-body h1 {
+    line-height: 0.5em;
+}

@@ -5,10 +5,180 @@
             Resume - Terence Sun
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
-        <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) 
-        and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" href="css/main_mobile.css">
+        <style type="text/css">
+        .resume-body {
+            overflow: hidden;
+            text-align: left;
+            /*box-shadow: 0 0 6px #ccc;*/
+            letter-spacing: 0px;
+        }
+        .resume-body h1, 
+        .resume-body h2, 
+        .resume-body h3,  
+        .resume-body h4 {
+            margin: 0 0 10px 0;
+            padding: 0;
+            text-transform: none;
+            letter-spacing: 0px;
+        }
+        .resume-body h1 {
+            font-size: 4em;
+            line-height: 1em;
+        }
+        .resume-body h2 {
+            font-size: 1.5em;
+        }
+        .resume-body h3 {
+            font-size: 1.1em;
+        }
+        .resume-body p {
+            margin: 0 0 10px 0;
+        }
+        .resume-body ul {
+            list-style-type: circle;
+            /*line-height: 1.8em;*/
+        }
+        .resume-body .clear {
+            clear: both;
+        }
+        .resume-body .title-name {
+            margin: 0px 0 10px 0;
+            font-weight: normal;
+            text-align: center;
+        }
+        .resume-body .item h3{
+            margin:0;
+        }
+        .resume-body .item ul{
+            margin:0;
+            margin-bottom: 5px;
+        }
+        .resume-body .section {
+            margin-bottom: 15px;
+        }
+        .resume-body .basic-info {
+            margin: 0 auto 15px auto;
+            line-height: 18px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .resume-body .basic-info p {
+            margin: 0;
+        }
+        .resume-body .basic-info .dot {
+            display: inline;
+            font-size: 14px;
+            margin: 0 10px;
+        }
+        .resume-body .section .title {
+            text-transform: uppercase;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .resume-body .date{
+            float: right;
+            line-height: 1.5em;
+        }
+        .resume-body .section .publication-link a {
+            text-decoration: none;
+            font-style: normal;
+            padding: 1em;
+        }
+        .resume-body .section .publication-link a:before {
+            content:"Link";
+        }
+        .resume-body .section-education .school,
+        .resume-body .section-education .major,
+        .resume-body .section-work .job_title,
+        .resume-body .section .location {
+            font-size: 1em;
+            margin: 5px 0 5px 0;
+            line-height: 1em;
+            font-style: italic;
+        }
+        .resume-body .company ~ .company{
+            font-weight: normal;
+        }
+        .resume-body .company a{
+            text-decoration: none;
+        }
+        .resume-body .perminfo{
+            text-align: left;
+            float:left;
+        }
+        .resume-body .schoolinfo{
+            text-align: right;
+            float: right;
+        }
+        .resume-body .website{
+            display:none;
+        }
+        @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+            .resume-body {
+                box-shadow: none;
+                padding: 0;
+                padding: 5px;
+            }
+            .resume-body .date {
+                float:none;
+                display:block;
+            }
+            .resume-body .date::before {
+                content: "(";
+            }
+            .resume-body .date::after {
+                content: ")";
+            }
+            .resume-body .basic-info .schoolinfo,
+            .resume-body .basic-info .perminfo {
+                float: none;
+                text-align: center;
+                margin: 10px;
+            }
+        }
+        @media print{
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Georgia, serif, 'Trebuchet MS';
+                line-height: 14px;
+                font-size: 14px;
+            }
+            .resume-body{
+                width: 910px;
+                background: #fff;
+                box-shadow: none;
+                line-height: 14px;
+                font-size: 14px;
+                margin: 0;
+                padding: 35px;
+                overflow: hidden;
+            }
+            .resume-body ul{
+                line-height: 1.25em;
+            }
+            .resume-body .website{
+                display: inline;
+            }
+            .resume-body a{
+                color:black;
+                text-decoration: none;
+            }
+            .resume-body .section {
+                margin-bottom: 10px;
+            }
+            .resume-body .section .publication-link a {
+                display: none;
+            }
+            .resume-body h1 {
+                line-height: 0.5em;
+            }
+        }
+        </style>
     </head>
     <body>
         <div class="resume-body">
