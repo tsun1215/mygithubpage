@@ -100,7 +100,7 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-10 col-lg-offset-1">
                 <h2>About</h2>
                 <p>Dicta graeco vim ei, has eros detracto ne! Tempor utroque ius ne, ex vix purto elaboraret. Eos ut alterum equidem. Sit vero salutandi te. Eu mundi neglegentur nec, adhuc malorum forensibus sea cu. Nam purto liber primis eu, vero periculis definiebas ea vel.</p>
                 <p>Ne diam cibo dolor cum! Eu quot virtute nusquam eum. Vim prompta referrentur in, ea sit debet saperet detracto. An vim case solet, ius civibus facilisis ut! Ius at habeo dolorum, sumo malis augue sit an!</p>
@@ -113,25 +113,24 @@
     <section id="resume" class="content-section text-center">
         <div class="resume-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Resume</h2>
-                    <p>Ne diam cibo dolor cum! Eu quot virtute nusquam eum. Vim prompta referrentur in, ea sit debet saperet detracto. An vim case solet, ius civibus facilisis ut! Ius at habeo dolorum, sumo malis augue sit an!</p>
-                    <p>Et detraxit atomorum usu, essent perfecto urbanitas pri eu. Iisque latine vel ut, stet illud facilis quo ad, id legere impetus qui! Ex nulla ornatus expetendis vis, eros splendide temporibus et pro, vim agam elaboraret ex? Dico commodo in pri, autem debitis pericula pro ne. At atqui viderer cum. Altera eripuit ad nam, summo eloquentiam quo ut?</p>
-                    <p>Te usu bonorum mentitum eloquentiam, his id nonumes feugait, at novum suscipiantur necessitatibus mei. Qui dicit prodesset in, no nam tollit epicurei invidunt. Sea ei mutat laudem, tantas homero tractatos in sit! Deleniti eleifend per ut, sed no iusto nostro option! Laoreet platonem scriptorem no per, per ea facilis volumus. Repudiare euripidis ut qui, ignota postulant consectetuer eum te! Omnium facilisi cu per, mel no fugit feugiat detraxit, ipsum errem definitionem id mea.</p>
-                    <p>Doctus posidonium vix ex. Sea erat vidisse forensibus ea. Graecis expetenda eum ex! Mei case habeo audire ne, ad per iisque veritus imperdiet.</p>
-                    <p>Eos id erant splendide. Scripserit theophrastus eum ut, an vel audiam bonorum nominati, unum semper delenit cu cum! An ius paulo tacimates eleifend, dicunt evertitur scribentur te vel! Ut qui lobortis facilisis instructior, ne summo partem usu? Duo eius appareat deterruisset ei, te tibique invenire gubergren quo, ad munere latine nec. Cibo elitr deserunt et vim?</p>
-                    <p>Ignota suscipiantur in qui! Eu sed omnis ipsum dolorem. Ea est porro ullum, ea mea probo novum ludus, ut mel vocent tamquam? Cum noster platonem no, vim ex libris scripta quaestio.</p>
-                    <p>Dicant dignissim ne eum, id omnes officiis sit. Vis populo percipitur in, mel doctus luptatum ex! Est solum hendrerit instructior ut, saepe senserit duo ea? Oblique feugait tincidunt ius te, vis et brute vocent pericula? Id eam porro nusquam recusabo?</p>
-                    <p>Tota tempor mollis ut usu, ad copiosae persecuti maiestatis pro, admodum partiendo pri at. Eu nec alienum conclusionemque. Nec te tantas alterum, cu aliquando voluptatum qui! Duo dolores interpretaris at, pri congue soluta at, at cibo nominati ius! Vel et simul nonumes accusam, no stet tritani ius</p>
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class='resume-container'>
+                    </div>
                 </div>
             </div>
+            <script type="text/javascript">
+            $("#resume .resume-section .resume-container").load("resume/index.html", function(data){
+                $(".resume-section .basic-info").hide();
+                $(".resume-section .title-name").hide();
+            });
+            </script>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-10 col-lg-offset-1">
                 <h2>Follow Me</h2>
                 <ul class="list-inline banner-social-buttons">
                     <li>

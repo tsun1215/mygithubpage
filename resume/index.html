@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Resume - Terence Sun
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style type="text/css">
+        .resume-body {
+            overflow: hidden;
+            text-align: left;
+            /*box-shadow: 0 0 6px #ccc;*/
+            letter-spacing: 0px;
+        }
+        .resume-body h1, 
+        .resume-body h2, 
+        .resume-body h3,  
+        .resume-body h4 {
+            margin: 0 0 10px 0;
+            padding: 0;
+            text-transform: none;
+            letter-spacing: 0px;
+        }
+        .resume-body h1 {
+            font-size: 4em;
+            line-height: 1em;
+        }
+        .resume-body h2 {
+            font-size: 1.5em;
+        }
+        .resume-body h3 {
+            font-size: 1.1em;
+        }
+        .resume-body p {
+            margin: 0 0 10px 0;
+        }
+        .resume-body ul {
+            list-style-type: circle;
+            /*line-height: 1.8em;*/
+        }
+        .resume-body .clear {
+            clear: both;
+        }
+        .resume-body .title-name {
+            margin: 0px 0 10px 0;
+            font-weight: normal;
+            text-align: center;
+        }
+        .resume-body .item h3{
+            margin:0;
+        }
+        .resume-body .item ul{
+            margin:0;
+            margin-bottom: 5px;
+        }
+        .resume-body .section {
+            margin-bottom: 15px;
+        }
+        .resume-body .basic-info {
+            margin: 0 auto 15px auto;
+            line-height: 18px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .resume-body .basic-info p {
+            margin: 0;
+        }
+        .resume-body .basic-info .dot {
+            display: inline;
+            font-size: 14px;
+            margin: 0 10px;
+        }
+        .resume-body .section .title {
+            text-transform: uppercase;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .resume-body .date{
+            float: right;
+            line-height: 1.5em;
+        }
+        .resume-body .section .publication-link a {
+            text-decoration: none;
+            font-style: normal;
+            padding: 1em;
+        }
+        .resume-body .section .publication-link a:before {
+            content:"Link";
+        }
+        .resume-body .section-education .school,
+        .resume-body .section-education .major,
+        .resume-body .section-work .job_title,
+        .resume-body .section .location {
+            font-size: 1em;
+            margin: 5px 0 5px 0;
+            line-height: 1em;
+            font-style: italic;
+        }
+        .resume-body .company ~ .company{
+            font-weight: normal;
+        }
+        .resume-body .company a{
+            text-decoration: none;
+        }
+        .resume-body .perminfo{
+            text-align: left;
+            float:left;
+        }
+        .resume-body .schoolinfo{
+            text-align: right;
+            float: right;
+        }
+        .resume-body .website{
+            display:none;
+        }
+        @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+            .resume-body {
+                box-shadow: none;
+                padding: 0;
+                padding: 5px;
+            }
+            .resume-body .date {
+                float:none;
+                display:block;
+            }
+            .resume-body .date::before {
+                content: "(";
+            }
+            .resume-body .date::after {
+                content: ")";
+            }
+            .resume-body .basic-info .schoolinfo,
+            .resume-body .basic-info .perminfo {
+                float: none;
+                text-align: center;
+                margin: 10px;
+            }
+        }
+        @media print{
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Georgia, serif, 'Trebuchet MS';
+                line-height: 14px;
+                font-size: 14px;
+            }
+            .resume-body{
+                width: 910px;
+                background: #fff;
+                box-shadow: none;
+                line-height: 14px;
+                font-size: 14px;
+                margin: 0;
+                padding: 35px;
+                overflow: hidden;
+            }
+            .resume-body ul{
+                line-height: 1.25em;
+            }
+            .resume-body .website{
+                display: inline;
+            }
+            .resume-body a{
+                color:black;
+                text-decoration: none;
+            }
+            .resume-body .section {
+                margin-bottom: 10px;
+            }
+            .resume-body .section .publication-link a {
+                display: none;
+            }
+            .resume-body h1 {
+                line-height: 0.5em;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="resume-body">
+            <h1 class="title-name">
+                Terence Sun
+            </h1>
+            <div class="basic-info section">
+                <div class="perminfo">
+                    <p class="email">
+                        tsun1215@gmail.com · (510) 375-5760
+                    </p>
+                    <p class="address">
+                        5032 Forbes Avenue, SMC 3812, Pittsburgh, PA 15289
+                    </p>
+                </div>
+                <div class="schoolinfo">
+                    <p class="email">
+                        tsun.io/resume
+                    </p>
+                    <p class="address">
+                        github.com/tsun1215
+                    </p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="section section-education">
+                <h2 class="title">
+                    Education
+                </h2>
+                    <div class="item">
+                        <h3>
+                            Carnegie Mellon University
+                            <span class="date r">Anticipated Spring 2017</span>
+                        </h3>
+                        <p class="major">Bachelor of Science, Electrical and Computer Engineering</p>
+                        <p class="school">Pittsburgh, PA</p>
+                        <ul>
+                            <li>
+                                <span class="info">Current GPA: 3.66/4.0</span>
+                            </li>
+                            <li>
+                                <span class="info">Double Minor: Software Engineering, Computer Science</span>
+                            </li>
+                            <li>
+                                <span class="info">Relevant Course Work: Fundamentals of Software Engineering, Managing Software Development, Software Engineering Practicum, Principles of Software Construction, Intro to Computer Systems, Embedded Real-Time Systems, Structure and Design of Digital Systems
+                            </li>
+                        </ul>
+                    </div>
+                <div class="clear"></div>
+            </div>
+            <div class="section section-work">
+                <h2 class="title">
+                    Work experience
+                </h2>
+                    <div class="item">
+                        <h3>
+                            <span class="company">Google</span>
+                            <span class="date r">Jun 2015 — Aug 2015</span>
+                        </h3>
+                        <p class="job_title">Engineering Practicum Intern - Mountain View, CA</p>
+                        <ul>
+                            <li>
+                                <span class="info">Pioneered work on first-party product review collection within Google Shopping</span>
+                            </li>
+                            <li>
+                                <span class="info">Worked full-time with three different engineering teams to develop and prototype the review system</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3>
+                            <span class="company">Carnegie Mellon University - Principles of Software Construction (15-214)</span>
+                            <span class="date r">Jan 2015 — Present</span>
+                        </h3>
+                        <p class="job_title">Computer Science Teaching Assistant - Pittsburgh, PA</p>
+                        <ul>
+                            <li>
+                                <span class="info">Help students master software engineering concepts in 1 hour recitations and 2 hour office hours weekly</span>
+                            </li>
+                            <li>
+                                <span class="info">Develop homework and recitation assignments with other TAs, and grade homeworks and exams</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3>
+                            <span class="company">National Energy Research Scientific Computing Center (<a href="http://www.nersc.gov/" title="NERSC Homepage">NERSC</a>)</span>
+                            <span class="date r">
+                                May 2014 — Dec 2014, <br />
+                                Jun 2013 — Aug 2013
+                            </span>
+                        </h3>
+                        <p class="job_title">Computational Sciences Division Student Programmer - Oakland, CA</p>
+                        <ul>
+                            <li>
+                                <span class="info">Created a portal and API to interface with array-based mass spectrometry data in the parallel SciDB database</span>
+                            </li>
+                            <li>
+                                <span class="info">Developed NEWT framework: a pluggable REST API that connects scientific computing resources to the web</span>
+                            </li>
+                        </ul>
+                    </div>
+                <div class="clear"></div>
+            </div>
+            <div class="section section-publications">
+                <h2 class="title">
+                    Published Papers
+                </h2>
+                    <div class="item">
+                        <h3>
+                        "Analysis of Metaboloics Datasets with High-Performance Computing and Metabolite Atlases" <span class="date r">Jul 20, 2015</span>
+                        </h3>
+                        <p class="location">
+                            National Energy Research Scientific Computing Center - Oakland, CA
+                            <span class="publication-link"><a href="http://www.mdpi.com/2218-1989/5/3/431"></a></span>
+                        </p>
+                        <ul>
+                            <li>Published with Benjamin Bowen, Yushu Yao, Tony Wang, Oliver Ruebel, and Trent Northen in the Metabolites Journal</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3>
+                        "The NEWT Platform: An Extensible Plugin Framework for Building ReSTful HPC APIs" <span class="date r">Nov 21, 2014</span>
+                        </h3>
+                        <p class="location">
+                            National Energy Research Scientific Computing Center - Oakland, CA
+                            <span class="publication-link"><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7021843"></a></span>
+                        </p>
+                        <ul>
+                            <li>Published with Shreyas Cholia (NERSC) to the 2014 Gateway Computing Environments Workshop (GCE)</li>
+                        </ul>
+                    </div>
+                <div class="clear"></div>
+            </div>
+            <div class="section section-qualifications">
+                <h2 class="title">
+                    Skills
+                </h2>
+                    <div class="item">
+                        <h3>Web Development</h3>
+                        <ul>
+                            <li>
+                                <span class="info">Proficient in Django, HTML5, Javascript, JQuery, CSS3, Flask, MongoDB</span>
+                            </li>
+                            <li>
+                                <span class="info">Experience with Node.js, PHP, MySQL, PostgreSQL, Ruby on Rails, Redis, Closure, AngularJS</span>
+                            </li>
+                        </ul>
+                        <h3>Programming Languages and Environments</h3>
+                        <ul>
+                            <li>
+                                <span class="info">Proficient in Java, C, Python, Unix</span>
+                            </li>
+                            <li>
+                                <span class="info">Experience with Android, Ruby, SML, SciDB, BigTable, Google MapReduce</span>
+                            </li>
+                        </ul>
+                    </div>
+                <div class="clear"></div>
+            </div>
+            <div class="section section-proj-exp">
+                <h2 class="title">
+                    Selected Project Experience
+                </h2>
+                    <div class="item">
+                        <h3>Trusted Stored Product Reviews<span class="date r">Jun 2015 — Aug 2015</span></h3>
+                        <p class="location">Google - Mountain View, CA</p>
+                        <ul>
+                            <li>
+                                <span class="info">Created an end-to-end product review system using Java, Google Map Reduce Framework, Google Closure that matches purchases in an order to products, emails a custom material design product review form, and stores the reviews in Google backend servers</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3>Ruby on Rails<span class="date r">Jan 2015 — May 2015</span></h3>
+                        <p class="location">Facebook Open Academy - CMU Course 15-413</p>
+                        <ul>
+                            <li>
+                                <span class="info">Contributed to the Rails project, guided by core developers, as part of the Facebook Open Academy course</span>
+                            </li>
+                            <li>
+                                <span class="info">Prototyped a Ruby-native alternative of module autoloading for Ruby on Rails</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3>Metatlas - Metabolite Atlas<span class="date r">May 2014 — Dec 2014</span></h3>
+                        <p class="location"> National Energy Research Scientific Computing Center - Oakland, CA</p>
+                        <ul>
+                            <li>
+                                <span class="info">Optimized SciDB queries to improve performance in generating 2D histograms, chromatograms, and spectra</span>
+                            </li>
+                            <li>
+                                <span class="info">Developed in Django (Python), uses SciDB to store multidimensional LCMS data, MongoDB for metadata</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3>NEWT 2.0<span class="date r">May 2014 — Aug 2014</span></h3>
+                        <p class="location"> National Energy Research Scientific Computing Center - Oakland, CA</p>
+                        <ul>
+                            <li>
+                                <span class="info">Modularized API by creating a framework to allow NEWT to be adapted to work on different HPC clusters</span>
+                            </li>
+                            <li>
+                                <span class="info">Updated API to support with Redis and Mongo databases, SGE and QSub job manager, and Globus Toolkit</span>
+                            </li>
+                        </ul>
+                    </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </body>
+</html>
